@@ -21,7 +21,7 @@ public class TestController {
 
         Map<String, String> messageBody = new HashMap<>();
         messageBody.put( "speed", "15" );
-        messageBody.put( "direction", "270" );
+        messageBody.put( "direction", "271" );
         messageBody.put( "sensor_ts", String.valueOf(System.currentTimeMillis()) );
 
         String messageId = syncCommands.xadd(
